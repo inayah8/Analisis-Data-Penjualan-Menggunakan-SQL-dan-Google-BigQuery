@@ -30,13 +30,12 @@ File Query disimpan dalam bentuk .txt meliputi:
 |Product_Line.txt|Jumlah barang terjual per product line selama September 2003–Maret 2004|
 
 #### Hasil dan Insight
-Hasil analisis ditampilkan dalam bentuk pptx, dengan kesimpulan sebagai berikut:
+Hasil analisis ditampilkan dalam bentuk pptx atau pdf, dengan kesimpulan sebagai berikut:
 1. Tahun dengan total penjualan tertinggi adalah tahun 2004.
 2. Negara dengan penjualan Classic Cars tertinggi pada 2004 adalah USA.
 3. Product line dengan jumlah barang terjual terbanyak adalah Classic Cars.
 
-
-
-
-
+#### Preview Analisis
+![Dashboard](SQL_Result.png)
+![Dashboard](Dashboard.png)
 
