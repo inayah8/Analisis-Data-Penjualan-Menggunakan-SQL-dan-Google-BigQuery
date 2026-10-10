@@ -1,0 +1,7 @@
+SELECT
+  YEAR_ID,
+  SUM(SALES) AS total_sales
+FROM `Sales_Data.Sales_Data`
+WHERE STATUS = 'Shipped'
+GROUP BY YEAR_ID
+ORDER BY total_sales DESC;

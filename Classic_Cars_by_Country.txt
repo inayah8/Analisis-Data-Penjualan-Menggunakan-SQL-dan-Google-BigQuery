@@ -1,0 +1,9 @@
+SELECT
+  COUNTRY,
+  SUM(SALES) AS total_sales
+FROM `Sales_Data.Sales_Data`
+WHERE STATUS = 'Shipped'
+  AND YEAR_ID = 2004
+  AND PRODUCTLINE = 'Classic Cars'
+GROUP BY COUNTRY
+ORDER BY total_sales DESC;
